@@ -1,0 +1,20 @@
+ES5 Global Constants
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants
+/* Write an ES2015 Version */
+
+    const PI = 3.14
+
+
+
+Quiz
+What is the difference between var and let?
+    var is applied to the window and can be reclared, let has a block scope and cannot be redeclared
+What is the difference between var and const?
+    var has a function scope and can be reassigned, const has a block scope and cannot be reassign
+What is the difference between let and const?
+    let can be reassigned, const cannot
+What is hoisting?
+    hoisting is when the browser reads var first when initializing the code
